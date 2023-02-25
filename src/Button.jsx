@@ -12,11 +12,13 @@ function Button(){
   }
 
     return (
-        <div className="button">
+        <div className="main">
             <h1>{count}</h1>
-            <button onClick = {increase}>+</button>
-            <br />
-            <button onClick = {Decrease}>-</button>
+            <div className="Button">
+                <button onClick = {increase}>+</button>
+                <br />
+                <button onClick = {Decrease}>-</button>
+            </div>
         </div>
     );
 }
