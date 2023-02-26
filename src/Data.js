@@ -8,14 +8,4 @@ const animals = [
     }
 ];
 
-function useAnimals(animals){
-    return [
-        animals.name,
-        function(){
-            console.log(animals.sound);
-        }
-    ];
-}
-
 export default animals;
-export { useAnimals };

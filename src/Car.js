@@ -6,6 +6,9 @@ const [honda, tesla] = cars;
 
 const {speed: {TopSpeed: hondaTopSpeed}} = honda;
 const {speed: {TopSpeed: teslaTopSpeed}} = tesla;
+const {color: [teslaColor]} = tesla;
+const {color: [hondaColor]} = honda;
+
 
 
 function Car(){
