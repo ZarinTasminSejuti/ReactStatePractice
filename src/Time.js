@@ -6,7 +6,7 @@ function Time(){
     setInterval(updateTime,1000);
 
     let currentTime = new Date().toLocaleTimeString();
-    console.log(currentTime);
+    //console.log(currentTime);
 
     const [time, setTime] = useState(currentTime);
 
