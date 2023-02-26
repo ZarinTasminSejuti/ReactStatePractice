@@ -1,6 +1,5 @@
 
-import animals, { useAnimals }  from "./Data";
-
+import animals from "./Data";
 
 
 
@@ -10,7 +9,7 @@ const [cats, dogs] = animals;
 console.log(dogs);
 console.log(cats);
 
- //Destructuring Object
+ //Destructuring Objects
 
  //const {  name, sound, feeding:{food, water}} = cats;
  //console.log(name, sound, food);
@@ -19,4 +18,4 @@ console.log(cats);
  //const [animal, makeSound] = useAnimals(cats);
  //console.log(animal); 
  //makeSound();
- //Destructuring Arrays  
+ //Destructuring Arrays
