@@ -3,6 +3,7 @@ import React from "react";
 import cars from "./CarData";
 
 const [honda, tesla] = cars;
+
 const {speed: {TopSpeed: hondaTopSpeed}} = honda;
 const {speed: {TopSpeed: teslaTopSpeed}} = tesla;
 
